@@ -1,0 +1,39 @@
+Tema
+https://www.aoshima-bk.co.jp/en/product/4905083065549/
+https://www.aoshima-bk.co.jp/en/product/4905083069530/
+https://www.aoshima-bk.co.jp/en/product/4905083064351/
+https://www.aoshima-bk.co.jp/en/product/4905083200469/
+https://www.aoshima-bk.co.jp/en/product/4905083058909/
+
+
+
+Página principal
+menu a la izquierda fixed
+Contacto
+
+Otro apartado mas
+
+(mas apartados, opcional)
+
+a. Desarrollar un sitio web con al menos las siguientes páginas:
+1. Página principal, con un menú que contenga enlaces a las
+diferentes páginas para cada tipo de producto o servicio.
+2. Contacto, con un formulario de envío de correo que solicite
+nombre, apellidos, dirección, email, teléfono y comentarios.
+Usar la validación de HTML5.
+3. Otro apartado más, y el resto de páginas que se consideren.
+b. Crea un código bien ordenado, usando etiquetas html5 en la
+medida de lo posible.
+c. Comenta el código adecuadamente, para destacar las partes
+más complejas, y agrupar y explicar las reglas css.
+d. Maquetarla con flex.
+e. Modificar el tipo de letra utilizando fuentes de Google Fonts.
+f. Eliminar el subrayado de los enlaces.
+g. Utilizar las pseudo-clases en los enlaces, para que cambien
+de color al pasar el ratón por ellos.
+
+Debeis entregar el enlace a vuestro repositorio en github,
+y la url de la página ya publicada en github pages,
+para hacerlo aqui teneis unos tutoriales:
+https://medium.com/@aarnlpezsosa/publicar-un-sitio-web-en-github-pages-b75f60a39207
+https://github.com/hugozap/guia-github-pages

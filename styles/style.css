@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Keania+One&family=Nova+Square&display=swap');
+/* color de fondo para la página y tipo de letra heredada para
+todos los textos de la página*/
+body {
+    background-color:#b6b6b6;
+    font-family: 'Keania One';
+}
+/* Reglas aplicadas a todas las páginas, de manera mas "genérica" */
+header {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: -1px;
+}
+
+header a {
+    font-size:large;
+    background-color: #b6b6b6;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color:#005bab;
+}
+
+a:visited {
+    color:#005bab;
+}
+
+a:hover {
+    color:#000000;
+}
+
+#alineadoSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h1 {
+    font-size: 50px;
+    margin: 20px;
+    color: #005bab;
+    font-weight: normal;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+figure {
+    display: flex;
+}
+figcaption{
+    position: relative;
+}
+footer {
+    position: sticky;
+    bottom: -1px;
+    margin-top: 15px;
+}
+
+#logo {
+    background-color: #b6b6b6;
+}
+/*  para cada pagina especifico 
+la primera es "Inicio" */
+
+#portada {
+    width: 35%;
+}
+
+/* estilos de "Productos" */
+section#catalogo {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+article#catalogo {
+    border: 1px solid black;
+    margin: 30px;
+    width: 45%;
+}
+
+#infoProducto h3, p{
+    margin: 10px;
+}
+
+#precio {
+    font-family: 'Nova Square';
+    font-size: small;
+    color: green;
+    position: absolute;
+    bottom: 0;
+    margin: 0px 0px 0px 10px;
+}
+
+/* Estilos de cada página de productos */
+article.articulos {
+    margin: 20px;
+}
+
+article.articulos img {
+    width: 30%;
+    min-width: 300px;
+    margin: 0px 20px 20px 0px;
+}
+#comprarArticulos {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#precioArticulos {
+    font-family: 'Nova Square';
+    font-size:x-large;
+    color: green;
+}
+
+.descripcionArticulos {
+    max-width: 50%;
+}
+
+/* Estilos de la página "Sobre nosotros" */
+div#sobreNosotros {
+    max-width: 40%;
+    
+}
+
+div#sobreNosotros p{
+    font-size: large;
+    margin: 20px 0px 20px 0px;
+}
+
+/* Estilos para "Contacto" y el formulario de "Nuevo pedido" */
+form {
+    text-align: center;
+    max-width: 90%;
+}
+
+form div {
+    text-align: center;
+    min-width: 10%;
+    padding: 5px 10px 5px 10px;
+}
+
+label {
+    font-size: x-large;
+}
+
+input#inputGrande{
+    width: 400px;
+}
+
+#maquetacionFormulario {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+button {
+    font-size: x-large;
+    color: #005bab;
+    background-color: #b6b6b6;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #000000;
+}
+
+#comentariosFormulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+textarea {
+    width: 90%;
+}
+
+#telefono {
+    font-family: 'Nova Square';
+}
